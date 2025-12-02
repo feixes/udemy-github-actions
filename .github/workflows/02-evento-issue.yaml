@@ -7,5 +7,5 @@ jobs:
     hola-mundo:
         runs-on: ubuntu-latest
         steps:
-            - name: Hola Mundo
+            - name: Hola Mundo Issue
               run: echo "Hola Xavi!"

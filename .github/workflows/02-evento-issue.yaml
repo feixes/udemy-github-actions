@@ -1,6 +1,5 @@
 name: 02-Evento Issue
 on:
-    push:
     issues:
         types: [opened]
 

@@ -2,6 +2,10 @@ name: 02-Evento Issue
 on:
     issues:
         types: [opened]
+    push:
+        paths-ignore:
+            - "**.md"
+
 
 jobs:
     hola-mundo:
